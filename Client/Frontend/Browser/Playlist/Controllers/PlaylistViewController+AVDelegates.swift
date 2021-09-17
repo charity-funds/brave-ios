@@ -14,10 +14,10 @@ extension PlaylistViewController: AVPictureInPictureControllerDelegate {
     
     func pictureInPictureControllerWillStartPictureInPicture(_ pictureInPictureController: AVPictureInPictureController) {
         
-        PlaylistCarplayManager.shared.playlistController = splitViewController?.parent as? PlaylistViewController
+        PlaylistCarplayManager.shared.playlistController = self
         
         if UIDevice.isIpad {
-            splitViewController?.dismiss(animated: true, completion: nil)
+            self.dismiss(animated: true, completion: nil)
         }
     }
     
