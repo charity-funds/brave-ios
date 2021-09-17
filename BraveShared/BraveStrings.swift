@@ -1214,6 +1214,30 @@ extension Strings {
                               value: "This will delete the media from offline storage. Are you sure you want to continue?",
                               comment: "Message for the alert shown when the user tries to remove offline data of an item from playlist")
         
+        public static let sharePlaylistActionTitle =
+            NSLocalizedString("playlist.sharePlaylistActionTitle",
+                              bundle: .braveShared,
+                              value: "Brave Playlist Menu",
+                              comment: "Title of the ActionSheet/Alert when sharing a playlist item from the Swipe-Action")
+        
+        public static let sharePlaylistActionDetailsTitle =
+            NSLocalizedString("playlist.sharePlaylistActionDetailsTitle",
+                              bundle: .braveShared,
+                              value: "You can open the current item in a New Tab, or share it via the System Share Menu",
+                              comment: "Details Title of the ActionSheet/Alert when sharing a playlist item from the Swipe-Action")
+        
+        public static let sharePlaylistOpenInNewTabTitle =
+            NSLocalizedString("playlist.sharePlaylistOpenInNewTabTitle",
+                              bundle: .braveShared,
+                              value: "Open In New Tab",
+                              comment: "Button Title of the ActionSheet/Alert Button when sharing a playlist item from the Swipe-Action")
+        
+        public static let sharePlaylistShareActionMenuTitle =
+            NSLocalizedString("playlist.sharePlaylistShareActionMenuTitle",
+                              bundle: .braveShared,
+                              value: "Share Playlist Item",
+                              comment: "Button Title of the ActionSheet/Alert Button when sharing a playlist item from the Swipe-Action")
+        
         public static let menuBadgeOptionTitle =
             NSLocalizedString("playlist.menuBadgeOptionTitle",
                               bundle: .braveShared,
